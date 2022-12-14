@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "staging": "geth-fyi"
+  },
+  "targets": {},
+  "etags": {}
+}

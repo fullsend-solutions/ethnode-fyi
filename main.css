@@ -1,0 +1,35 @@
+
+@font-face {
+    font-family: spaceFont;
+    src: url(SpaceMono-Regular.ttf);
+}
+
+.post .text {
+    font-family: spaceFont;
+    padding: 0 10px;
+    color: #75FB4C;
+    /*background: #eafee4;*/ /* Change text background */
+}
+
+ .footer {
+     position: fixed;
+     font-family: spaceFont;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: black;
+     color: #75FB4C;
+     text-align: center;
+ }
+
+a:link {
+    color: #75FB4C;
+    background-color: transparent;
+    font-family: spaceFont;
+}
+
+a:visited {
+    color: #75FB4C;
+    background-color: transparent;
+    font-family: spaceFont;
+}
