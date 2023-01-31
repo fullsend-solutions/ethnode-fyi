@@ -15,7 +15,7 @@ prysm.bat beacon-chain --execution-endpoint=http://localhost:8551 --jwt-secret=C
 The python script uses three threads. One each to read from the geth and prysm text files and a third to upload the lines
 to Firebase. This way, the order at which lines are outputted to the console is preserved.
 
-[ethnode.fyi](https://ethnode.fyi) is deployed [Firebase Hosting](https://firebase.google.com/docs/hosting/test-preview-deploy#deploy-project-directory-to-live) with the following command:
+[ethnode.fyi](https://ethnode.fyi) is deployed via [Firebase Hosting](https://firebase.google.com/docs/hosting/test-preview-deploy#deploy-project-directory-to-live) with the following command:
 ```
 firebase deploy --only hosting
 ```
