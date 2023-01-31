@@ -1,4 +1,4 @@
-geth-fyi
+ethnode-fyi
 =============================
 
 [ethnode.fyi](https://ethnode.fyi) provides live console output of the [geth](https://geth.ethereum.org/) 
