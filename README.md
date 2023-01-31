@@ -1,7 +1,7 @@
 geth-fyi
 =============================
 
-[geth.fyi](https://geth.fyi) provides live console output of the [geth](https://geth.ethereum.org/) 
+[ethnode.fyi](https://ethnode.fyi) provides live console output of the [geth](https://geth.ethereum.org/) 
 and [prysm](https://prysmaticlabs.com/) Ethereum clients. This [python script](node/main.py) runs on
 a custom-built Windows machine to upload the console output to a Firebase Realtime Database. The geth and prysm console output is written to two separate text files. To [achieve this](https://stackoverflow.com/questions/796476/displaying-windows-command-prompt-output-and-redirecting-it-to-a-file),
 in Command Prompt run the following command for geth:
@@ -17,3 +17,4 @@ to Firebase. This way, the order at which lines are outputted to the console is 
 
 This project was built by Fullsend Solutions, a software studio based in Los Angeles helping innovative companies build best-in-class apps.
 Building software? Reach out to [lets@fullsend.io](mailto:lets@fullsend.io).
+
